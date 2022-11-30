@@ -1,0 +1,125 @@
+:root{
+    --boton-color: rgb(34, 57, 133);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-color: rgb(249, 252, 255);
+}
+.solicitudes{
+    background-color: rgb(58, 224, 202);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 40px;
+}
+.solicitud1{
+    font-size: 20px;
+}
+.solicitud2 a{
+    color: white;
+    padding: 10px;
+    background-color: var(--boton-color);
+}
+.buscador{
+    margin: 10px;
+    margin-left: 230px;
+}
+.campo{
+    border-radius: 0;
+    border: 1px solid black;
+    padding: 7px;
+    width: 175px;
+}
+table{
+    border-collapse: collapse;
+    margin: 10px;
+    margin-left: 200px;
+    align-items: center;
+}
+th{
+    font-size: 20px;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.tab-num{
+    text-align: center;
+}
+td a{
+    color: white;
+    padding: 10px;
+}
+.borrar{
+    background-color: rgb(206, 31, 31);
+}
+.ver{
+    background-color: rgb(37, 146, 37);
+}
+.editar{
+    background-color: rgb(96, 96, 230);
+}
+.boton{
+    border-radius: 0;
+    border-style: none;
+    background-color: var(--boton-color);
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.formulario{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.formulario .boton{
+    margin-top: 50px;
+    font-size: 22px;
+}
+.formulario div{
+    margin-top: 10px;
+    text-align: right;
+    font-size: 20px;
+}
+.formulario .campo{
+    font-size: 20px;
+    width: 250px;
+}
+.formulario a{
+    float: right;
+}
+.listado-datos li{
+    margin: 30px;
+    font-size: 30px;
+}
+.listado-datos li h2{
+    letter-spacing: 3px;
+}
+.listado-datos .centrado{
+    text-align: center;
+    margin-top: 100px;
+}
+.listado-datos .centrado .boton{
+    font-size: 50px;
+}
+.mensaje{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.mensaje .boton{
+    font-size: 26px;
+}
